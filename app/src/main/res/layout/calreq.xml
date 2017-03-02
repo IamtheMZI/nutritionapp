@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF"
+	android:padding="11dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="ক্যালরি চাহিদা"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:alpha="1"
+		android:background="@color/cyan"
+		android:padding="11dp"
+		android:layout_gravity="center"
+		android:textColor="#FFFFFF"
+		android:textSize="28sp"
+		android:paddingLeft="20dp"
+		android:layout_marginBottom="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="আপনার ক্যালরি চাহিদা (কিলো ক্যালরি)"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:alpha="1"
+		android:background="#FFFFFF"
+		android:padding="11dp"
+		android:layout_gravity="center"
+		android:textColor="@color/cyan"
+		android:textSize="20sp"
+		android:paddingLeft="15dp"
+		android:layout_marginBottom="10dp"
+		android:gravity="center"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="0"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="#FFFFFF"
+			android:padding="0dp"
+			android:layout_gravity="left"
+			android:textColor="@color/cyan"
+			android:textSize="29sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="center"
+			android:layout_margin="0dp"
+			android:id="@+id/calreqOutput1"/>
+
+	</LinearLayout>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="numberDecimal"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:hint="আপনার আই বি ডব্লিউ"
+		android:id="@+id/calreqIBW1"
+		android:gravity="center"
+		android:layout_gravity="center"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="কাজের ধরন"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:background="@color/cyan"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_gravity="center"
+			android:layout_margin="10dp"
+			android:id="@+id/calreqHalka"
+			android:onClick="onClick"
+			android:layout_weight=".33">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="light"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"
+				android:alpha="1"
+				android:background="@color/cyan"
+				android:padding="8dp"
+				android:layout_gravity="center"
+				android:textColor="#FFFFFF"
+				android:textSize="15sp"
+				android:paddingLeft="0dp"
+				android:paddingRight="0dp"
+				android:gravity="center"
+				android:layout_weight=".33"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_gravity="center"
+			android:layout_margin="10dp"
+			android:id="@+id/calreqMed"
+			android:onClick="onClick"
+			android:layout_weight=".33">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="medium"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"
+				android:alpha="1"
+				android:background="@color/cyan"
+				android:padding="8dp"
+				android:layout_gravity="center"
+				android:textColor="#FFFFFF"
+				android:textSize="15sp"
+				android:paddingLeft="0dp"
+				android:paddingRight="0dp"
+				android:gravity="center"
+				android:layout_weight=".33"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_gravity="center"
+			android:layout_margin="10dp"
+			android:id="@+id/calreqHeavy"
+			android:onClick="onClick"
+			android:layout_weight=".33">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="heavy"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"
+				android:alpha="1"
+				android:background="@color/cyan"
+				android:padding="8dp"
+				android:layout_gravity="center"
+				android:textColor="#FFFFFF"
+				android:textSize="15sp"
+				android:paddingLeft="0dp"
+				android:paddingRight="0dp"
+				android:gravity="center"
+				android:layout_weight=".33"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_margin="4dp"
+		android:id="@+id/calorieIBW"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="আই বি ডব্লিউ"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="@color/cyan"
+			android:padding="8dp"
+			android:layout_gravity="center"
+			android:textColor="#FFFFFF"
+			android:textSize="15sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="0.4"
+			android:paddingRight="0dp"
+			android:gravity="center"
+			android:onClick="onClick"
+			android:layout_margin="10dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_margin="0dp"
+		android:id="@+id/back"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="মূলপাতা"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="@color/cyan"
+			android:padding="8dp"
+			android:layout_gravity="center"
+			android:textColor="#FFFFFF"
+			android:textSize="28sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="0.4"
+			android:paddingRight="0dp"
+			android:gravity="center"
+			android:onClick="onClick"
+			android:layout_margin="14dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

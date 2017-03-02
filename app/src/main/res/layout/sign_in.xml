@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF"
+	android:padding="11dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="প্রবেশিকা"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:alpha="1"
+		android:background="#FFBD00"
+		android:padding="11dp"
+		android:layout_gravity="center"
+		android:textColor="#FFFFFF"
+		android:textSize="28sp"
+		android:paddingLeft="20dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="স্বাগতম"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:padding="19dp"
+		android:textColor="#FFBD00"
+		android:textStyle="bold"
+		android:textSize="35sp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="অনুগ্রহ করে আপনার একাউন্টে প্রবেশ করুন"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:gravity="center"
+		android:padding="13dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="ব্যবহারকারীর ইমেইল"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textEmailAddress"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:id="@+id/username"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="পাসওয়ার্ড"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textPassword"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:id="@+id/password"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:text="প্রবেশ করুন"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:background="#FFBD00"
+		android:textColor="#FFFFFF"
+		android:padding="7dp"
+		android:id="@+id/signinButton"
+		android:onClick="onClick"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="একাউন্ট নেই? নিবন্ধন করুন.."
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:paddingTop="22dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:text="নিবন্ধন"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:background="#FFBD00"
+		android:textColor="#FFFFFF"
+		android:id="@+id/signupButton"
+		android:onClick="signup"/>
+
+</LinearLayout>
+

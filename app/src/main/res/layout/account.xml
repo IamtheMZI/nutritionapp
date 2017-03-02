@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF"
+	android:padding="11dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="একাউন্ট"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:alpha="1"
+		android:background="#FFBD00"
+		android:layout_gravity="center"
+		android:textColor="#FFFFFF"
+		android:textSize="28sp"
+		android:padding="11dp"
+		android:layout_marginBottom="2dp"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="নাম"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="#FFFFFF"
+			android:layout_gravity="left"
+			android:textColor="#FFBD00"
+			android:textSize="15sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:padding="10dp"
+			android:gravity="left"
+			android:layout_margin="3dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="বয়স"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="#FFFFFF"
+			android:padding="10dp"
+			android:layout_gravity="left"
+			android:textColor="#FFBD00"
+			android:textSize="15sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="left"
+			android:layout_margin="3dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="ওজন"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="#FFFFFF"
+			android:padding="10dp"
+			android:layout_gravity="left"
+			android:textColor="#FFBD00"
+			android:textSize="15sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="left"
+			android:layout_margin="3dp"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="উচ্চতা"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="#FFFFFF"
+			android:padding="10dp"
+			android:layout_gravity="left"
+			android:textColor="#FFBD00"
+			android:textSize="15sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="left"
+			android:layout_margin="3dp"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="লক্ষ্য"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="#FFFFFF"
+			android:padding="10dp"
+			android:layout_gravity="left"
+			android:textColor="#FFBD00"
+			android:textSize="15sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="left"
+			android:layout_margin="3dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="পরিশ্রমের ধরন"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="#FFFFFF"
+			android:padding="10dp"
+			android:layout_gravity="left"
+			android:textColor="#FFBD00"
+			android:textSize="15sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="left"
+			android:layout_margin="3dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="বি এম আই"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="#FFFFFF"
+			android:padding="10dp"
+			android:layout_gravity="left"
+			android:textColor="#FFBD00"
+			android:textSize="15sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="left"
+			android:layout_margin="3dp"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_margin="10dp"
+		android:id="@+id/back"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="মূলপাতা"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="#FFBD00"
+			android:padding="8dp"
+			android:layout_gravity="center"
+			android:textColor="#FFFFFF"
+			android:textSize="28sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="0.4"
+			android:paddingRight="0dp"
+			android:gravity="center"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

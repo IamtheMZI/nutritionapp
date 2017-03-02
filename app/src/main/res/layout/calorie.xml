@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF"
+	android:padding="40dp">
+<!--
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="ক্যালরিমিতি"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:alpha="1"
+		android:background="#FFBD00"
+		android:padding="11dp"
+		android:layout_gravity="center"
+		android:textColor="#FFFFFF"
+		android:textSize="28sp"
+		android:paddingLeft="20dp"
+		android:layout_marginBottom="24dp"/>
+	-->
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0"
+		android:id="@+id/calorieBMI"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="বি এম আই"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="@color/cyan"
+			android:padding="8dp"
+			android:layout_gravity="left"
+			android:textColor="#FFFFFF"
+			android:textSize="20sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="center"
+			android:layout_margin="10dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0"
+		android:id="@+id/calorieIBW"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="আই বি ডব্লিউ ও ই বি ডব্লিউ"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="@color/cyan"
+			android:padding="8dp"
+			android:layout_gravity="left"
+			android:textColor="#FFFFFF"
+			android:textSize="20sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="center"
+			android:layout_margin="10dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0"
+		android:id="@+id/calorieReq"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="ক্যালরি চাহিদা"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="@color/cyan"
+			android:padding="8dp"
+			android:layout_gravity="left"
+			android:textColor="#FFFFFF"
+			android:textSize="20sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="center"
+			android:layout_margin="10dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0"
+		android:id="@+id/calorieMalNut"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="অপুষ্টি সম্পর্কে ধারনা"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="@color/cyan"
+			android:padding="8dp"
+			android:layout_gravity="left"
+			android:textColor="#FFFFFF"
+			android:textSize="20sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="center"
+			android:layout_margin="10dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0"
+		android:id="@+id/calorieCmnFood"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="কিছু প্রচলিত পুষ্টি উপাদানের উৎস"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="@color/cyan"
+			android:padding="8dp"
+			android:layout_gravity="left"
+			android:textColor="#FFFFFF"
+			android:textSize="20sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="center"
+			android:layout_margin="10dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0"
+		android:id="@+id/calorieGuide"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="খাদ্য সম্পর্কিত দিকনির্দেশনা"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="@color/cyan"
+			android:padding="8dp"
+			android:layout_gravity="left"
+			android:textColor="#FFFFFF"
+			android:textSize="20sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="center"
+			android:layout_margin="10dp"/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_weight="0"
+		android:id="@+id/calorieMore"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="সাহায্য"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="@color/cyan"
+			android:padding="8dp"
+			android:layout_gravity="left"
+			android:textColor="#FFF0F0"
+			android:textSize="20sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="1"
+			android:paddingRight="0dp"
+			android:gravity="center"
+			android:layout_margin="0dp"/>
+
+	</LinearLayout>
+<!--
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_margin="10dp"
+		android:id="@+id/back"
+		android:onClick="onClick">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="মূলপাতা"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:alpha="1"
+			android:background="#FFBD00"
+			android:padding="8dp"
+			android:layout_gravity="center"
+			android:textColor="#FFFFFF"
+			android:textSize="28sp"
+			android:paddingLeft="0dp"
+			android:layout_weight="0.4"
+			android:paddingRight="0dp"
+			android:gravity="center"/>
+
+	</LinearLayout>
+-->
+</LinearLayout>
+
